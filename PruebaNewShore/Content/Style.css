@@ -1,0 +1,30 @@
+﻿
+.Container {
+    background-color: #86AFF7;
+    border-radius:10px;
+    width: 1024px;
+    height: 130px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center{
+margin-right:50px;
+
+}
+.input-field.col label{
+    color:black;
+    
+}
+
+
+.StyleFrom {
+    background-color: #86AFF7;
+    border-radius: 10px;
+    width: 1024px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

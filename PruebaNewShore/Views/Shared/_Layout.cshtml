@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+
+    @Styles.Render("~/Content/materialize/css/materialize.css")
+    @Styles.Render("~/Content/Style.css")
+
+
+</head>
+<body>
+    @Html.Partial("_BannerPartial")
+    @Html.Partial("BuscarVuelo")
+    @Html.Partial("_DisponibilidadVuelos")
+
+
+    <div class="container body-content">
+
+        @RenderBody()
+
+    </div>
+    @Scripts.Render("~/Content/materialize/js/jquery-3.4.1.min.js")
+    @Scripts.Render("~/Content/materialize/js/materialize.js")
+    @Scripts.Render("~/Content/Script.js")
+</body>
+</html>
